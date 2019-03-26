@@ -49,10 +49,14 @@
     }
   }
   }
-    ```
-    
-    > 自定义弹出框
-    ```
+ ```
+   
+   
+   
+   
+ > 自定义弹出框
+ 
+  ```
     <van-dialog v-model="show"  title='确认消息' show-cancel-button
         message= '您确定要退出当前账号吗？' :before-close="beforeClose">
       </van-dialog>
